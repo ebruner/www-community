@@ -15,7 +15,7 @@ auto-migrated: 1
 ## Description
 
 Session Fixation is an attack that permits an attacker to hijack a valid
-user session. The attack explores a limitation in the way the web
+user session. The attack exploits a limitation in the way the web
 application manages the session ID, more specifically the vulnerable web
 application. When authenticating a user, it doesn’t assign a new session
 ID, making it possible to use an existent session ID. The attack
